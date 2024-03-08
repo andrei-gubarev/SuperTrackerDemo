@@ -23,7 +23,7 @@ public class RequestFileStorageServiceTests
         await storageService.StoreRequest("userAgent1", "referrer1", "10.0.0.1");
         
         // Assert
-        var expected = $"{_testTimeProvider.GetUtcNow():o}|referrer1|userAgent1|10.0.0.1{Environment.NewLine}";
+        var expected = $"{_testTimeProvider.GetUtcNow():o} | referrer1 | userAgent1 | 10.0.0.1{Environment.NewLine}";
         Assert.Equal(expected, _fakeFileWrapper.Content);
     }
 
@@ -42,7 +42,7 @@ public class RequestFileStorageServiceTests
         await storageService.StoreRequest(userAgent, referrer, ip);
         
         // Assert
-        var expected = $"{time:o}|{referrer ?? "null"}|{userAgent ?? "null"}|{ip}{Environment.NewLine}";
+        var expected = $"{time:o} | {referrer ?? "null"} | {userAgent ?? "null"} | {ip}{Environment.NewLine}";
         Assert.Equal(expected, _fakeFileWrapper.Content);
     }
 

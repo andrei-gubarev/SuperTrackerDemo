@@ -41,7 +41,7 @@ internal class RequestFileStorageService(
     
     private string BuildLog(string? userAgent, string? referer, string ipAddress)
     {
-        return $"{timeProvider.GetUtcNow():o}|{GetValueOrNull(referer)}|{GetValueOrNull(userAgent)}|{ipAddress}{Environment.NewLine}";
+        return $"{timeProvider.GetUtcNow():o} | {GetValueOrNull(referer)} | {GetValueOrNull(userAgent)} | {ipAddress}{Environment.NewLine}";
     }
 
     private static string GetValueOrNull(string? str)
