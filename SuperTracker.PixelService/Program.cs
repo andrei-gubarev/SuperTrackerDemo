@@ -38,3 +38,4 @@ static async Task<IResult> TrackRequest(
     return TypedResults.File(gifData, "image/gif");
 }
 
+public partial class Program { }
