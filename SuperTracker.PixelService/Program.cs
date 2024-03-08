@@ -1,5 +1,8 @@
+using System.Runtime.CompilerServices;
 using Rebus.Config;
 using SuperTracker.PixelService.Services;
+
+[assembly: InternalsVisibleTo("SuperTracker.PixelService.Tests")]
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRebus(configure =>

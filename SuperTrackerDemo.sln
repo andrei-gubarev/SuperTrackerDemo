@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperTracker.StorageService
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperTracker.PixesService.Integration.Tests", "SuperTracker.PixesService.Integration.Tests\SuperTracker.PixesService.Integration.Tests.csproj", "{0B9C38C6-9998-4CD6-8BF5-0F0774C240F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperTracker.PixelService.Tests", "SuperTracker.PixelService.Tests\SuperTracker.PixelService.Tests.csproj", "{BE779445-12FC-4690-B16A-117F6A243BA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperTracker.StorageService.Tests", "SuperTracker.StorageService.Tests\SuperTracker.StorageService.Tests.csproj", "{394A84B8-A9A8-4672-AA9D-DC88A9541512}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,8 +36,18 @@ Global
 		{0B9C38C6-9998-4CD6-8BF5-0F0774C240F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B9C38C6-9998-4CD6-8BF5-0F0774C240F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B9C38C6-9998-4CD6-8BF5-0F0774C240F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE779445-12FC-4690-B16A-117F6A243BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE779445-12FC-4690-B16A-117F6A243BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE779445-12FC-4690-B16A-117F6A243BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE779445-12FC-4690-B16A-117F6A243BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{394A84B8-A9A8-4672-AA9D-DC88A9541512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394A84B8-A9A8-4672-AA9D-DC88A9541512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394A84B8-A9A8-4672-AA9D-DC88A9541512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394A84B8-A9A8-4672-AA9D-DC88A9541512}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0B9C38C6-9998-4CD6-8BF5-0F0774C240F0} = {A75CE6C6-83AF-4B05-9199-995101B2EFFB}
+		{BE779445-12FC-4690-B16A-117F6A243BA0} = {A75CE6C6-83AF-4B05-9199-995101B2EFFB}
+		{394A84B8-A9A8-4672-AA9D-DC88A9541512} = {A75CE6C6-83AF-4B05-9199-995101B2EFFB}
 	EndGlobalSection
 EndGlobal
